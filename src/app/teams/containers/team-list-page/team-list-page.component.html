@@ -1,0 +1,12 @@
+<!--<ul>
+  <li *ngFor="let team of teams">
+    <span> name : {{team.name}}</span>
+    <span> slogan : {{team.slogan}}</span>
+  </li>
+</ul>-->
+
+<mat-card class="team-card-box" *ngFor="let team of teams">
+  <mat-card-content>
+    {{team.name}}
+  </mat-card-content>
+</mat-card>
